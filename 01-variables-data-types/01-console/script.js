@@ -9,17 +9,17 @@ const x = 200;
 
 console.log(x);
 
-console.error('Alert'); // this show red indicating danger
+console.error('Alert'); 
 
-console.warn('Warning'); // this shows yellow indicating warning sign
+console.warn('Warning'); 
 
-console.table({ name: 'Willy', email: 'willy23@gmail.com', phoneNumber: '08083220000' }); // This make the data set a table form
+console.table({ name: 'Willy', email: 'willy23@gmail.com', phoneNumber: '08083220000' }); 
 
-console.group("simple"); // this group anyother console or item bbelow it as a dropdown arrow
+console.group("simple");
 console.log(x);
 console.error('Alert');
 console.warn('Warning');
-console.groupEnd(); // this always end the console group
+console.groupEnd(); 
 
 const styles = 'padding: 10px; background-color: green; color: white';
 
