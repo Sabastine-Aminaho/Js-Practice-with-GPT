@@ -20,6 +20,7 @@ x = fruits.concat(berries); //This add both fruits and berries as one array
 // Spread Operator (...)
 
 x = [...fruits, ...berries];
+
 // if i took the dot off berries, then i am nesting the berries in the fruits
 x = [...fruits, berries];
 

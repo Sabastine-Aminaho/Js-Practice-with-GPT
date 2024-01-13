@@ -48,13 +48,4 @@ x = s.split('') //this will split a string into an array
 
 x = s.split(' ') //this will split a string into an array
 
-
-
-
-
-
-
-
-
-
 console.log(x);
