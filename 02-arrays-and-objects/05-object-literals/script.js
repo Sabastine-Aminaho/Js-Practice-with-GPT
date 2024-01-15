@@ -9,6 +9,7 @@ const person = {
         city: 'Boston',
         state: 'MA',
     },
+
 // you can also add an array to an object
     hobbies: ['music', 'sports'],
 };
@@ -35,6 +36,17 @@ person['address']['street'] = 'Olihia St, Idumuodin';
 person['address']['state'] = 'Edo State';
 person['isAdmin'] = true;
 x = person.hobbies['1'];
-console.log(person);
+
+delete person.age;
+
+person.addChildren = true;
+
+person.greet = function () {
+    console.log(`hello, my love name is ${this.name}`);
+}
+
+person.greet();
+
+// console.log(person);
 
 console.log(x);
