@@ -9,7 +9,7 @@ const person = {
         city: 'Boston',
         state: 'MA',
     },
-// you can also add an array to an object 
+// you can also add an array to an object
     hobbies: ['music', 'sports'],
 };
 
@@ -21,9 +21,9 @@ x = person['isAdmin'];
 
 //  let access an object inside an object we can use;
 x = person.address.state; // OR
-x = person['address']['city']; 
+x = person['address']['city'];
 
-//to access an arrayin an Object, we use the bellow;
+//to access an array in an Object, we use the below;
 x = person.hobbies[0]; // OR
 x = person['hobbies'][1];
 
@@ -34,9 +34,7 @@ person.address.city = 'Igbanke';
 person['address']['street'] = 'Olihia St, Idumuodin';
 person['address']['state'] = 'Edo State';
 person['isAdmin'] = true;
+x = person.hobbies['1'];
+console.log(person);
 
-
-console.log(person)
- 
-
-console.log(x)
+console.log(x);
