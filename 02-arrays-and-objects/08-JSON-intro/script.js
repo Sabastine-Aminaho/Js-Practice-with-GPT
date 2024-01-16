@@ -5,7 +5,7 @@ const post = {
 }
 
 // Convert to JSON string
-const str = JSON.stringify(post); // stringify coverts an object tp json file
+const str = JSON.stringify(post); // stringify coverts an object to JSON file
 
 // Parse JSON
 const obj = JSON.parse(str); //parse convert a JSON string to object
